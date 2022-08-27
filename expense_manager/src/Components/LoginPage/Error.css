@@ -1,0 +1,12 @@
+.login-error-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin: 0 0 3vh 4vh;
+    width: 30vh;
+    height: 4vh;
+
+}

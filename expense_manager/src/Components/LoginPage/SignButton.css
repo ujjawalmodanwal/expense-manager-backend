@@ -1,0 +1,81 @@
+.SignButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid darkgrey;
+    border-radius: 50px;
+    width: 44vh;
+    height: 5.5vh;
+    margin: 1vh 0 1vh 2vw;
+    cursor: pointer;
+}
+
+img{
+    margin: 0.5vw;
+    width:8%;
+    height:60%;
+}
+
+.SignButton:hover{
+    background-color: rgb(232, 232, 232);
+}
+
+.SignButton-Email{
+    font-weight: 800;
+    color: white;
+    background-color: #0093cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid darkgrey;
+    border-radius: 50px;
+    width: 44vh;
+    height: 5.5vh;
+    margin: 1vh 0 1vh 2vw;
+    cursor: pointer;
+}
+.SignButton-Email:hover{
+    background-color: #0289bf;
+}
+
+.Signin-already{
+    font-weight: 800;
+    color: #0093cd;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid darkgrey;
+    border-radius: 50px;
+    width: 44vh;
+    height: 5.5vh;
+    margin: 1vh 0 1vh 2vw;
+    cursor: pointer;
+}
+.Signin-already:hover{
+    background-color: rgb(232, 232, 232);
+}
+
+
+@media (max-width: 880px){
+    .Signin-already{
+        width: 265px !important;
+        height: 43px;
+        margin: 0 0 2vh 0;
+    }
+    .SignButton{
+        width: 265px !important;
+        height: 43px;
+        margin: 0 0 2vh 0;
+    }
+    .SignButton-Email{
+        width: 265px !important;
+        height: 43px;
+        margin: 0 0 2vh 0;
+    }  
+    img{
+        margin: 0.5vw;
+        width:8%;
+        height:50%;
+    }  
+}

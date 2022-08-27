@@ -1,0 +1,133 @@
+.expenseCard{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    width: 25vh;
+    height: 25vh;
+    border-radius: 5px;
+    margin: 5vh;
+    cursor: pointer;
+    align-items: center;
+}
+
+.expenseCard:hover{
+    border: 2px solid blue;
+    border-radius: 5px;   
+    box-shadow: 0px 6px 10px 5px #888888;
+}
+
+.expenseCard-addCard{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    width: 25vh;
+    height: 25vh;
+    border-radius: 5px;
+    margin: 5vh;
+    align-items: center;
+}
+
+
+.expenseCard-title{
+    position: relative;
+    font-size: 3vh;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden !important;
+    margin: 0 2vh 0 2vh;
+    top: 6vh;
+    height: 4vh;
+}
+
+.expenseCard-totalSpent{
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 3vh;
+    bottom: 1vh;
+    width: 20vh;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    margin: 0 2vh 0 2vh;
+}
+.expenseCard-Pricetag{
+    position: absolute;
+    bottom: 4.5vh;
+}
+
+.expenseCard-textfield{
+    margin: 2vh;
+    width: 16vh;
+}
+
+.expenseCard-cancelIcon{
+    position: absolute;
+    top: 0.1vh;
+    right: 0.1vh;
+    width: 2vh;
+    height: 2vh;
+    cursor: pointer;
+}
+.expenseCard-cancelIcon:hover{
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: rgb(95, 95, 247);
+    color: white;
+}
+
+.expenseCard-plusIcon{
+    position: absolute;
+    height: 7vh;
+    width: 7vh;
+    bottom: 6vh;
+    
+}
+
+.expenseCard-saveButton{
+    position: absolute;
+    bottom: -2vh;
+    right: -10vh;
+}
+
+.expenseCard-menuDots{
+    position: absolute;
+    right: 0.5vh;
+    height: 2vh;
+    width: 2vh;
+}
+
+.expenseCard-menuDots:hover{
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgba(175, 175, 175, 0.366);
+}
+
+.expenseCard-menu-window{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+    width: 10vh;
+    background-color: rgb(212, 228, 251);
+    left:16vh;
+    top:-2vh;
+    border: 2px solid blue;
+    border-radius: 5px;   
+}
+
+.expenseCard-menuBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 10vh;
+    overflow: hidden ;
+}
+.expenseCard-menuBox:hover{
+    background-color: rgb(95, 95, 247);
+    color: white;
+}
